@@ -1,5 +1,5 @@
 
-# ![WebApp](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
+# ![SMK-BISA](https://i.ibb.co.com/Yy4WpQX/banner.png)
 # SMK-BISA : Basis Informasi Siswa Dan Akademik
 <table>
 <tr>
@@ -19,9 +19,8 @@
 6. **Daftar Siswa Berdasarkan Kelas:** Menampilkan daftar siswa yang terdaftar di setiap kelas.
 7. **Daftar Guru Berdasarkan Kelas:** Menampilkan daftar guru yang mengajar di setiap kelas.
 8. **Daftar Siswa, Kelas, dan Guru:** Menampilkan informasi lengkap mengenai siswa, kelas, dan guru.
+8. **Pencarian Data pada Datatable:** Memungkinkan pengguna untuk mencari dan memfilter data dengan cepat di tabel berdasarkan kata kunci atau kriteria tertentu.
 
-# Panduan Instalasi 
-Berikut adalah langkah-langkah untuk menginstal dan mengkonfigurasi proyek Laravel:
 
 ## Prerequisites
 
@@ -38,7 +37,7 @@ Pastikan Anda telah menginstal hal berikut di sistem Anda:
    cd SMK-BISA
 2. **Install Dependencies**
    ```bash
- composer install
+     composer install
 
 3. **Copy .env File**
    ```bash
@@ -66,37 +65,28 @@ Pastikan Anda telah menginstal hal berikut di sistem Anda:
     php artisan serve
 
 Aplikasi Anda sekarang dapat diakses di http://localhost:8000.
-    
 
-
-
-
-
-
-
+## Akun
+- Email:admin@gmail.com
+- Password:admin
 
 # Site
 
 ### Login
-Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
-
-![](https://iharsh234.github.io/WebApp/images/demo/web_app_face.JPG)
+![](https://i.ibb.co.com/fDK19CJ/login.png)
 
 ### Dahboard
-![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
+![](https://i.ibb.co.com/K7V8QTQ/dashboard.png)
 
-### Kelas
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart1.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart2.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart3.JPG)
-### Guru
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart1.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart2.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart3.JPG)
 ### Siswa
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart1.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart2.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart3.JPG)
+![](https://i.ibb.co.com/vYP3rx6/siswa.png)
+![](https://i.ibb.co.com/HG6GGDg/siswa-filter.png)
+### Guru
+![](https://i.ibb.co.com/TBRbz4N/guru.png)
+![](https://i.ibb.co.com/v3fcGhQ/guru-filter.png)
+
+### Siswa
+![](https://i.ibb.co.com/ph4c65t/kelas.png)
 
 
 
