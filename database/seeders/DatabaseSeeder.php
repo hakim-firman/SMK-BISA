@@ -16,13 +16,13 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         User::factory()->create([
-            'name' => 'Hakim Firman',
+            'name' => 'Admin SMK',
             'email' => 'admin@gmail.com',
         ]);
         $this->call([
             KelasSeeder::class,
-            StudentsSeeder::class,
-            TeachersSeeder::class,
+            StudentSeeder::class,
+            TeacherSeeder::class,
         ]);
     }
 }
