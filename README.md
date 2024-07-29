@@ -76,17 +76,22 @@ Aplikasi Anda sekarang dapat diakses di http://localhost:8000.
 ![](https://i.ibb.co.com/fDK19CJ/login.png)
 
 ### Dahboard
-![](https://i.ibb.co.com/K7V8QTQ/dashboard.png)
+![](https://i.ibb.co.com/Dtm3nVh/dashboard.png)
 
 ### Siswa
-![](https://i.ibb.co.com/vYP3rx6/siswa.png)
-![](https://i.ibb.co.com/HG6GGDg/siswa-filter.png)
+![](https://i.ibb.co.com/vxvB3jf/siswa.png)
+![](https://i.ibb.co.com/NjSFvgG/siswa-filter.png)
+![](https://i.ibb.co.com/Q8wkfJq/siswa-search.png)
 ### Guru
-![](https://i.ibb.co.com/TBRbz4N/guru.png)
-![](https://i.ibb.co.com/v3fcGhQ/guru-filter.png)
+![](https://i.ibb.co.com/JqfXhjL/guru.png)
+![](https://i.ibb.co.com/8d8PtqL/guru-filter.png)
 
-### Siswa
-![](https://i.ibb.co.com/ph4c65t/kelas.png)
+### Kelas
+![](https://i.ibb.co.com/MpRLmDn/kelas.png)
 
+### Relasi
+![](https://i.ibb.co.com/S6SHywf/relasi.png)
 
+### 💻 Build With Laravel 11
+### ⚡ Develop By Hakim Firman Febrian
 
