@@ -54,7 +54,7 @@ Pastikan Anda telah menginstal hal berikut di sistem Anda:
     DB_USERNAME=root
     DB_PASSWORD=
 
-6. **Generate Application Key**
+6. **Migration Database**
     ```bash
     php artisan migrate
 7. **Seed Database**
