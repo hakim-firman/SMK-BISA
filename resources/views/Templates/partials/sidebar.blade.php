@@ -72,15 +72,24 @@
                         <span>Kelas</span>
                     </a>
                 </li>
-                
+
+                <li class="sidebar-title">Relasi</li>
+
+                <li class="sidebar-item {{request()->routeIs('relasi')?' active':''}} ">
+                    <a href="{{route('relasi')}}" class='sidebar-link'>
+                        <i class="bi bi-database-gear"></i>
+                        <span>Siswa-Kelas-Guru</span>
+                    </a>
+                </li>
+
                 <li class="sidebar-title">Account</li>
                 <li class="sidebar-item ">
                     <a href="{{route('logout')}}" class="sidebar-link">
                         <i class="bi bi-box-arrow-right"></i>
                         <span>Logout</span>
                     </a>
-                    
-    
+
+
                 </li>
 
 

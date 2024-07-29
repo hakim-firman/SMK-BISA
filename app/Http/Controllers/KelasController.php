@@ -27,7 +27,7 @@ class KelasController extends Controller
             })
             ->make(true);
         }
-        
+
         return view('Kelas.Index');
     }
 
@@ -46,7 +46,7 @@ class KelasController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'kelas' => 'required|unique:kelas,name',
-            
+
         ],[
             'kelas.required'=>'Kelas Harus Diisi!!!',
             'kelas.unique'=>'Kelas tidak boleh sama!!!'
@@ -80,7 +80,7 @@ class KelasController extends Controller
      * Show the form for editing the specified resource.
      */
     public function edit(Kelas $kelas,$id)
-    {      
+    {
         $data=$kelas->find($id);
 
         return response()->json(['result'=>$data]);
@@ -93,7 +93,7 @@ class KelasController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'kelas' => 'required|unique:kelas,name',
-            
+
         ],[
             'kelas.required'=>'Kelas Harus Diisi!!!',
             'kelas.unique'=>'Kelas tidak boleh sama!!!'

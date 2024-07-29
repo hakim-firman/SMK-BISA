@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\KelasController;
+use App\Http\Controllers\RelasiController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\TeacherController;
 use App\Models\Kelas;
@@ -26,9 +27,7 @@ Route::get('/', function () {
         'kelas'=>$jumlahKelas,
     ]);
 })->name('dashboard');
-Route::get('/siswa', function () {
-    return view('Siswa.Index');
-})->name('siswa');
+Route::get('/Relasi',[RelasiController::class,'index'])->name('relasi');
 Route::resource('kelas', KelasController::class)->names([
     'index' => 'kelas.index',
     'create' => 'kelas.create',
